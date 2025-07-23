@@ -1,6 +1,9 @@
 @media (max-width:576px) {
 
 /* shared styles */
+.container{
+    margin: 40px auto;
+}
 h1{
     font-size: 24px;
 }
@@ -53,5 +56,8 @@ p{
     .plant-lover-section-text{
         width: 90%;
         margin: 00 auto;
+    }
+    .Batch{
+        display: none;
     }
 }
