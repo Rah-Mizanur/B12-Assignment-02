@@ -87,7 +87,7 @@ p {
 }
 /* our plant section style */
 .our-plants-section{
-    background: green;
+
     flex-direction: column;
     text-align: center;
     gap: 20px;
@@ -134,7 +134,7 @@ p {
 
 /* plants lover section */
 .plant-lover-section{
-    background: lightseagreen;
+
     gap: 20px;
     justify-content: space-between;
 }
@@ -149,6 +149,9 @@ p {
     flex-direction: column;
     justify-content: center;
     gap: 20px;
+}
+.plant-lover-section-text h1{
+    text-align: left;
 }
 .plant-lover-section-text ul li{
     margin: 20px 00;
