@@ -1,8 +1,30 @@
 @media (max-width:576px) {
     body{
-        background: green;
+        /* background: green; */
     }
+/* shared styles */
+p{
+    font-size: 14px;
+}
+/* others styles */
     .menu li{
         display: none;
     }
+    .menu p{
+        font-size: 16px;
+    }
+    .banner-section{
+        flex-direction: column-reverse;
+    }
+    .banner-text{
+        width: 90%;
+        margin: 10px auto;
+    }
+    .banner-text h1{
+        font-size: 24px;
+    }
+    .banner-img{
+        width:100%
+    }
+    .banner
 }
