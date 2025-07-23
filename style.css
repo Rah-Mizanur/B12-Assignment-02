@@ -7,7 +7,7 @@ body {
 /* shared styles */
 .container {
     max-width: 1140px;
-    margin: 00 auto;
+    margin: 40px auto;
 }
 
 a {
@@ -17,7 +17,7 @@ a {
 h1 {
     font-family: "Noto Serif", serif;
     color: black;
-    font-size: 24px;
+    font-size: 50px;
     font-weight: 700;
 }
 h1 span{
@@ -65,7 +65,7 @@ p {
 
 /* banner styles */
 .banner-section {
-    margin: 40px auto;
+    /* margin: 40px auto; */
     padding-top: 20px;
     /* background: lightseagreen; */
 }
@@ -87,6 +87,7 @@ p {
 }
 /* our plant section style */
 .our-plants-section{
+    background: green;
     flex-direction: column;
     text-align: center;
     gap: 20px;
@@ -94,7 +95,9 @@ p {
 .our-plants-section h1{
     font-size: 50px;
 }
-
+.our-plants-section p{
+    margin:10px 40px;
+}
 .plant-items{
     width: 100%;
     display: grid;
@@ -127,4 +130,27 @@ p {
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 600;
+}
+
+/* plants lover section */
+.plant-lover-section{
+    background: lightseagreen;
+    gap: 20px;
+    justify-content: space-between;
+}
+.plant-lover-section-img{
+    width: 50%;
+}
+.plant-lover-section-img img{
+    width: 100%;
+}
+.plant-lover-section-text{
+    width: 45%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.plant-lover-section-text ul li{
+    margin: 20px 00;
+    list-style: disc;
 }
