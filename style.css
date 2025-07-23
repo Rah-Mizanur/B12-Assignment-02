@@ -1,0 +1,30 @@
+body{
+    margin: 00px;
+    padding: 00px;
+
+}
+
+/* shared styles */
+.container{
+    max-width: 1140px;
+    margin: 00 auto;
+}
+a{
+     font-family: "Inter", serif;
+}
+h1{
+     font-family: "Noto Serif", serif;
+}
+p{
+      font-family: "Inter", sans-serif;
+}
+
+/* Header styles */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 00;
+}
+.menu{
+    gap: 48px;
+}

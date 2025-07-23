@@ -1,0 +1,8 @@
+@media (max-width:576px) {
+    body{
+        background: green;
+    }
+    .menu li{
+        display: none;
+    }
+}
