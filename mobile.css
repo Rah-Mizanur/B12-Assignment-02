@@ -2,6 +2,7 @@
 
     /* shared styles */
     .container {
+        width: 95%;
         margin: 40px auto;
     }
 
@@ -106,7 +107,11 @@
     .latest-deal-right h1{
         font-size: 20px;
     }
-
+    /* newsletter  */
+    .newsletter-section{
+        width: 420px;
+        height: 276px;
+    }
     .newsletter{
         top: 30%;
         left:20%;
@@ -121,5 +126,10 @@
     .newsletter button{
         padding: 4px 20px;
     }
-    
+    /* footer start  */
+
+    .footer-container {
+        flex-direction: column;
+
+    }
 }

@@ -281,3 +281,25 @@ p {
     font-size: 16px;
     font-weight: 600;
 }
+
+/* footer start  */
+.footer-container{
+    gap: 40px;
+    justify-content: space-between;
+}
+.footer-content-1{
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-content-1 img{
+    width: 135px;
+}
+.footer-content-2{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.icon{
+    width: 36px;
+    height: 36px;
+}
