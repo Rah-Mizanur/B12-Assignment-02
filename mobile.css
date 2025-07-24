@@ -106,8 +106,20 @@
     .latest-deal-right h1{
         font-size: 20px;
     }
+
+    .newsletter{
+        top: 30%;
+        left:20%;
+    }
     .latest-deal-right a{
         margin-top: 10px;
         font-size: 16px;
     }
+    .newsletter input{
+        width: 200px;
+    }
+    .newsletter button{
+        padding: 4px 20px;
+    }
+    
 }

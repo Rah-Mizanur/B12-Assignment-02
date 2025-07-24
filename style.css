@@ -1,7 +1,7 @@
 body {
     margin: 00px;
     padding: 00px;
-
+    background: white;
 }
 
 /* shared styles */
@@ -243,4 +243,41 @@ p {
     color:white;
     font-size: 28px;
     text-decoration: underline;
+}
+
+/* newsletter section */
+
+.newsletter-section{
+    width: 100vw;
+    
+    position: relative;
+    background: rgba(7,51,79,0.4);
+    margin: 80px auto;
+}
+.newsletter-section img{
+    width: 100%;
+}
+.newsletter{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+.newsletter h1{
+    color: #ffffff;
+}
+.newsletter input{
+    /* max-width: 640px; */
+    width: 640px;
+    background: white;
+    padding: 4px 24px;
+    margin: 00;
+}
+.newsletter button{
+    margin: 00;
+    padding: 4px 50px;
+    background: rgb(233, 90, 8);
+    color: #ffffff;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 600;
 }
